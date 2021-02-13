@@ -14,7 +14,7 @@ class Conf(_config.ConfigNamespace):
         'Name of the CASDA SIA server to use.'
     )
     timeout = _config.ConfigItem(
-        30,
+        5,
         'Time limit for connecting to CASDA server.'
     )
     poll_interval = _config.ConfigItem(
